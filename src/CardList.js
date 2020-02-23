@@ -18,11 +18,4 @@ const CardList = ({ robots }) => {
   );
 };
 
-// const CardList = ({ robots }) => {
-//   const cardComponent = robots.forEach(robot => {
-//     return <Card id={robot.id} name={robot.name} email={robot.email} />;
-//   });
-//   return <div>{cardComponent}</div>;
-// };
-
 export default CardList;
